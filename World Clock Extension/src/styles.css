@@ -44,7 +44,7 @@ button:hover {
     background-color: #0056b3;
 }
 
-body.clock-container {
+body .clock-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; /* Allow clocks to wrap to the next row */
@@ -61,11 +61,13 @@ body.clock-container {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     width: 150px; /* Set the width of each clock */
+    text-align: center; /* Center text content */
 }
 .clock span {
     margin-top: 5px;
     font-weight: bold;
     font-size: small;
+    text-align: center; /* Center text in the clock */
 }
 
 .time {
@@ -85,6 +87,7 @@ body.clock-container {
     border: 5px solid #000;
     border-radius: 50%;
     margin: 0 auto;
+    text-align: center; /* Center clock hands */
 }
 
 .hour, .minute, .second {
